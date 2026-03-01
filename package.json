@@ -1,0 +1,44 @@
+{
+  "name": "revisionmap",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/supabase-js": "^2.98.0",
+    "debug": "^4.4.3",
+    "expo": "~55.0.4",
+    "expo-status-bar": "~55.0.4",
+    "get-port": "^7.1.0",
+    "mkdirp": "^3.0.1",
+    "react": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-url-polyfill": "^3.0.0",
+    "rimraf": "^6.1.3",
+    "source-list-map": "^2.0.1",
+    "tmp": "^0.2.5"
+  },
+  "devDependencies": {
+    "@types/bonjour": "^3.5.13",
+    "@types/debug": "^4.1.12",
+    "@types/eslint-scope": "^8.4.0",
+    "@types/get-port": "^4.0.1",
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/jest": "^30.0.0",
+    "@types/mkdirp": "^1.0.2",
+    "@types/node": "^25.3.3",
+    "@types/react": "~19.2.2",
+    "@types/rimraf": "^3.0.2",
+    "@types/source-list-map": "^0.1.6",
+    "@types/tmp": "^0.2.6",
+    "expo-cli": "^4.0.17",
+    "expo-module-scripts": "^55.0.2",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
